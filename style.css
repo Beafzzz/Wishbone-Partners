@@ -33,7 +33,8 @@ header{
     color: white;
     background-color: black;
     border-radius: 19px;
-    padding: 15px 27px;
+    width: 207px;
+    height: 61px;
 }
 
 .first-screen{
@@ -73,7 +74,8 @@ header{
 
 .f-button{
     color: black;
-    padding: 15px 27px;
+    width: 177px;
+    height: 61px;
     background-color: #ECE7E4;
     border: none;
     font-size: 21px;
@@ -215,7 +217,7 @@ header{
     flex-direction: column;
     width: 400px;
     height: 100%;
-    left: 1425px;
+    left: calc(100% - 400px);
 }
 
 .fif-head-text{
@@ -240,10 +242,9 @@ header{
     height: 547px;
     align-items: center;
     justify-content: center;
+    gap: 175px;
 }
 
-.six-text-box{
-}
 
 .six-light-text{
     color: #ECE7E4;
@@ -266,8 +267,129 @@ header{
     margin: 0;
 }
 
-.six-image{
-    position: fixed;
-    top: 80px;
-    right: 373px;
+.sev-screen{
+    width: 100%;
+    height: 800px;
+    background-image: url("assets/img/staircase.png");
+}
+
+.sev-text-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 100%;
+    left: calc(100% - 1800px);
+}
+
+.sev-head-text{
+    letter-spacing: 3px;
+    color: #403E3B;
+    font-size: 19px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.sev-text{
+    color: #645C55;
+    font-size: 21px;
+    width: 380px;
+    margin: 0;
+}
+
+.eig-screen{
+    display: flex;
+    width: 100%;
+    height: 1224px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+
+.eig-figma-tak-skazala{
+    width: 1600px;
+    height: 931px;
+}
+
+.eig-head-text{
+    font-size: 52px;
+    margin: 0;
+}
+
+.eig-text{
+    font-size: 32px;
+    margin: 0;
+    width: 775px;
+    margin-top: 20px;
+    margin-bottom: 56px;
+}
+
+.eig-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 24px;
+}
+
+.eig-card{
+    width: 500px;
+    height: 608px;
+}
+
+.eig-card-img-back{
+    display: flex;
+    flex-direction: column;
+    gap: 373px;
+    background-image: url("assets/img/bar.png");
+    background-size: 500px 608px;
+    background-repeat: no-repeat;
+}
+
+.eig-card-text-box{
+    width: 276px;
+    margin-top: 53px;
+    margin-left: 53px;
+}
+
+.eig-card-light-text{
+    font-size: 19px;
+    margin: 0;
+    letter-spacing: 3px;
+    color: #645C55;
+}
+
+.eig-card-text{
+    font-size: 31px;
+    margin: 0;
+    color: #403E3B;
+}
+
+.eig-card-button{
+    color: white;
+    background-color: black;
+    width: 177px;
+    height: 61px;
+    border: none;
+    font-size: 21px;
+    border-radius: 19px;
+    margin-left: 53px;
+}
+
+.eig-for-button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 68px;
+    height: auto;
+}
+
+.eig-under-cards-button{
+    width: 240px;
+    height: 61px;
+    border: none;
+    background-color: transparent;
+    font-size: 21px;
+    margin: 0;
 }
