@@ -131,3 +131,143 @@ header{
 .t-text {
     color: #645C55;
 }
+
+.fo-screen{
+    width:100%;
+    height: 775px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fo-light-text{
+    color: #645C55;
+    font-size: 19px;
+    margin: 0;
+}
+
+.fo-head-text{
+    color: black;
+    font-size: 52px;
+    margin: 0;
+    margin-top: 17px;
+    margin-bottom: 53px;
+}
+
+.fo-cards{
+    display: flex;
+    flex-direction: row;
+    gap:21px;
+}
+
+.fo-card{
+    display: flex;
+    width: 505px;
+    height: 345px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fo-card-ico{
+    width: 156px;
+    height: 136px;
+}
+
+.fo-card-head{
+    font-size: 23px;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: #403E3B;
+}
+
+.fo-card-desc{
+    font-size: 21px;
+    margin: 0;
+    color: #645C55;
+    text-align: center;
+}
+
+.fo-desc-1{
+    width: 392px;
+}
+
+.fo-desc-2{
+    width: 389px;
+}
+
+.fo-desc-3{
+    width: 380px;
+}
+
+.fif-screen{
+    width: 100%;
+    height: 800px;
+    background-image: url("assets/img/stairs.png");
+}
+
+.fif-text-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 100%;
+    left: 1425px;
+}
+
+.fif-head-text{
+    letter-spacing: 3px;
+    color: #403E3B;
+    font-size: 19px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.fif-text{
+    color: #645C55;
+    font-size: 21px;
+    width: 380px;
+    margin: 0;
+}
+
+.six-screen{
+    display: flex;
+    background-color: #403E3B;
+    width: 100%;
+    height: 547px;
+    align-items: center;
+    justify-content: center;
+}
+
+.six-text-box{
+}
+
+.six-light-text{
+    color: #ECE7E4;
+    font-size: 19px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.six-head-text{
+    color: white;
+    font-size: 43px;
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+.six-text{
+    color: #ECE7E4;
+    width: 601px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.six-image{
+    position: fixed;
+    top: 80px;
+    right: 373px;
+}
