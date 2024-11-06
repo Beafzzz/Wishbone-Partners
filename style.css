@@ -27,6 +27,7 @@ header{
     color: black;
     background-color: white;
     border: none;
+    cursor: pointer;
 }
 
 .header-button-neg{
@@ -78,6 +79,7 @@ header{
     height: 61px;
     background-color: #ECE7E4;
     border: none;
+    cursor: pointer;
     font-size: 21px;
 }
 
@@ -371,6 +373,7 @@ header{
     width: 177px;
     height: 61px;
     border: none;
+    cursor: pointer;
     font-size: 21px;
     border-radius: 19px;
     margin-left: 53px;
@@ -389,7 +392,154 @@ header{
     width: 240px;
     height: 61px;
     border: none;
+    cursor: pointer;
     background-color: transparent;
     font-size: 21px;
     margin: 0;
+}
+
+.ni-screen{
+    width: 100%;
+    height: 790px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 21px;
+}
+
+.ni-head-text{
+    color: #403E3B;
+    font-size: 43px;
+    margin: 0;
+}
+
+.ni-text{
+    color: #645C55;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 18px;
+    margin-bottom: 40px;
+    width: 477px;
+}
+
+.ni-button{
+    width: 161px;
+    height: 61px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 21px;
+    margin: 0;
+}
+
+.ni-left-side-scr{
+    height: 523px;
+    width: 505px;
+    margin-top: 133px;
+}
+
+.ni-right-side{
+    display: flex;
+    flex-direction: row;
+    width: 1031px;
+    height: 523px;
+    margin-top: 133px;
+}
+
+.ni-left-side-box{
+    width: 532px;
+    height: 523px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ni-card{
+    width: auto;
+    height: 133px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ni-card-text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    width: auto;
+    height: 133px;
+}
+
+.ni-card-head-text{
+    color: black;
+    font-size: 23px;
+    margin: 0;
+}
+
+.ni-card-text{
+    color: #645C55;
+    font-size: 19px;
+    margin: 0;
+}
+
+.ni-card-top{
+    margin-top: 40px;
+}
+
+.te-screen{
+    display: flex;
+    width: 100%;
+    height: 419px;
+    background-color: #CEC4BC;
+    align-items: center;
+    justify-content: center;
+    gap: 596px;
+}
+
+.te-light-text{
+    color: #645C55;
+    letter-spacing: 3px;
+    font-size: 19px;
+    margin: 0;
+    text-transform: uppercase;
+    position: relative;
+    top: 22px;
+}
+
+.te-text{
+    font-size: 53px;
+    margin: 0;
+    width: 759px;
+}
+
+.te-button{
+    width: 193px;
+    height: 61px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 21px;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 272px;
+    align-items: center;
+    justify-content: center;
+    gap: 921px;
+}
+
+.foot-text{
+    margin: 0;
+    margin-top: 27px;
+    color: #645C55;
+}
+
+.foot-left-side{
+    display: flex;
+    height: 112px;
+    align-items: flex-end;
+    gap: 27px;
 }
